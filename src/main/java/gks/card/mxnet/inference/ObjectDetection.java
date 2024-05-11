@@ -38,9 +38,7 @@ public final class ObjectDetection {
     }
 
     public static DetectedObjects predict() throws IOException, ModelException, TranslateException {
-        //Path imageFile = Paths.get("src/test/resources/dog_bike_car.jpg");
-        //Path imageFile = Paths.get("src/test/resources/car.jpg");
-        //Path imageFile = Paths.get("src/test/resources/dogs.jpg");
+        // verificação de imagem adicionada no projeto
     	Path imageFile = Paths.get("src/test/resources/Pessoas/juliana.jpg");
         Image img = ImageFactory.getInstance(). fromFile(imageFile);
 
